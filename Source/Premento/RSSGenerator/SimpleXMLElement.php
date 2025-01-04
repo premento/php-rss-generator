@@ -13,6 +13,7 @@ class SimpleXMLElement extends XMLElement
      * @param string $namespace
      * @return XMLElement
      */
+    #[\ReturnTypeWillChange]
     public function addChild($name, $value = null, $namespace = null)
     {
         if ($value !== null and is_string($value) === true) {

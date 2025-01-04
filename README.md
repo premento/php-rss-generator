@@ -2,11 +2,11 @@
 
 `\Premento\RSSGenerator` is RSS generator library for PHP 5.5 or later.
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/premento/php-rss-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/premento/php-rss-generator/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/premento/php-rss-generator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/premento/php-rss-generator/build-status/master)
 
-[![Total Downloads](https://poser.pugx.org/bhaktaraz/php-rss-generator/downloads)](//packagist.org/packages/bhaktaraz/php-rss-generator)
-[![Monthly Downloads](https://poser.pugx.org/bhaktaraz/php-rss-generator/d/monthly)](//packagist.org/packages/bhaktaraz/php-rss-generator)
-[![Daily Downloads](https://poser.pugx.org/bhaktaraz/php-rss-generator/d/daily)](//packagist.org/packages/bhaktaraz/php-rss-generator)
+[![Total Downloads](https://poser.pugx.org/premento/php-rss-generator/downloads)](//packagist.org/packages/premento/php-rss-generator)
+[![Monthly Downloads](https://poser.pugx.org/premento/php-rss-generator/d/monthly)](//packagist.org/packages/premento/php-rss-generator)
+[![Daily Downloads](https://poser.pugx.org/premento/php-rss-generator/d/daily)](//packagist.org/packages/premento/php-rss-generator)
 
 ## Installation
 
@@ -17,7 +17,7 @@ Add in your `composer.json` file:
 ```json
 {
 	"require": {
-		"bhaktaraz/php-rss-generator": "dev-master"
+		"premento/php-rss-generator": "dev-master"
 	}
 }
 ```

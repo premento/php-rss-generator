@@ -1,6 +1,6 @@
 <?php
 
-namespace Bhaktaraz\RSSGenerator;
+namespace Premento\RSSGenerator;
 
 use SimpleXMLElement as XMLElement;
 

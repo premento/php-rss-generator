@@ -1,9 +1,9 @@
 <?php
 
-namespace Bhaktaraz\RSSGenerator;
+namespace Premento\RSSGenerator;
 
-use Bhaktaraz\RSSGenerator\ChannelInterface;
-use Bhaktaraz\RSSGenerator\SimpleXMLElement;
+use Premento\RSSGenerator\ChannelInterface;
+use Premento\RSSGenerator\SimpleXMLElement;
 
 interface ItemInterface
 {

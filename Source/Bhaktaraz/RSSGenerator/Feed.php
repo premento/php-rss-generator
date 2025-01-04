@@ -1,10 +1,10 @@
 <?php
 
-namespace Bhaktaraz\RSSGenerator;
+namespace Premento\RSSGenerator;
 
 use DOMDocument;
-use Bhaktaraz\RSSGenerator\FeedInterface;
-use Bhaktaraz\RSSGenerator\ChannelInterface;
+use Premento\RSSGenerator\FeedInterface;
+use Premento\RSSGenerator\ChannelInterface;
 
 class Feed implements FeedInterface
 {

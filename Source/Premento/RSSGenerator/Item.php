@@ -1,10 +1,10 @@
 <?php
 
-namespace Bhaktaraz\RSSGenerator;
+namespace Premento\RSSGenerator;
 
-use Bhaktaraz\RSSGenerator\ItemInterface;
-use Bhaktaraz\RSSGenerator\ChannelInterface;
-use Bhaktaraz\RSSGenerator\SimpleXMLElement;
+use Premento\RSSGenerator\ItemInterface;
+use Premento\RSSGenerator\ChannelInterface;
+use Premento\RSSGenerator\SimpleXMLElement;
 
 class Item implements ItemInterface
 {

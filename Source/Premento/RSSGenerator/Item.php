@@ -1,10 +1,10 @@
 <?php
 
-namespace Premento\RSSGenerator;
+namespace Bhaktaraz\RSSGenerator;
 
-use Premento\RSSGenerator\ItemInterface;
-use Premento\RSSGenerator\ChannelInterface;
-use Premento\RSSGenerator\SimpleXMLElement;
+use Bhaktaraz\RSSGenerator\ItemInterface;
+use Bhaktaraz\RSSGenerator\ChannelInterface;
+use Bhaktaraz\RSSGenerator\SimpleXMLElement;
 
 class Item implements ItemInterface
 {
@@ -228,7 +228,7 @@ class Item implements ItemInterface
         }
 
         $xml->addChild('description', $this->description);
-        if(strlen(trim($this->content)) > 0) {
+        if($this->content !== null && strlen(trim($this->content)) > 0) {
             $xml->addChildCData('xmlns:content:encoded', $this->content);
         }
 
